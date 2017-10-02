@@ -13,7 +13,7 @@ class FirstViewController: UIViewController {
     @IBOutlet weak var phraseLBL:UILabel!
     
     @IBAction func clickMe(sender:UIButton){
-        
+        phraseLBL.text = "Wow, it works!"
     }
 
     override func viewDidLoad() {
